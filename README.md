@@ -1,7 +1,13 @@
-# Oluwaseun Oyeniyi — MIT 8103
+# MIT 8103 Payee Direct-Debit Tracker
 
-Student ID: 301932126
+Oluwaseun Oyeniyi · Student ID 301932126
 
-Payee Direct-Debit Tracker. Entities: Customer, Account (belongs to Customer), Payee and DebitPayment (references Account and Payee). Rule: payment amount must be positive (CHECK). Query: monthly debit totals by payee. Transaction: insert a payment and its ledger entry atomically. MongoDB event logs: snapshot the payment with its account and customer details.
+The portfolio uses fictional records for MIT 8103 Payee Direct-Debit Tracker.
 
-The portfolio is being generated. Completed stages will appear in the commit history.
+- [Portfolio 1](portfolio-1-database-design/)
+- [Portfolio 2](portfolio-2-query-optimisation/)
+- [Portfolio 3](portfolio-3-transactions-concurrency/)
+- [Portfolio 4](portfolio-4-nosql/)
+- [Portfolio 5](portfolio-5-distributed-cloud/)
+
+[Final summary](Oyeniyi_Oluwaseun_301932126_FinalSummary.md) · [PDF](Oyeniyi_Oluwaseun_301932126_FinalSummary.pdf)
